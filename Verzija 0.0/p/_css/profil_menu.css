@@ -1,0 +1,25 @@
+#profile_menu{
+	position: fixed;
+	width: 100%; height: 50px;
+	bottom: 0px;
+	overflow: hidden;
+}
+#profile_menu_container{ position: absolute; left: 30px; }
+.pMenu{
+	position: relative;
+	background-color: #FFF;
+	padding: 3px;
+	padding-left: 25px; padding-right: 25px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	width: auto; 
+	float: left;
+	margin-right: 5px;
+	border-radius: 3px;
+	cursor: pointer; cursor: hand;
+	text-transform: uppercase;
+	color: #4b4c4d;
+	background-color: #cdcecf;
+	font-weight: bold;
+	height: 50px;
+	top:25px;
+}

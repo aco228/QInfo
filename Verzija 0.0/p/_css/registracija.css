@@ -1,0 +1,38 @@
+body{
+	background-color: #373737;
+}
+#center{
+	position: absolute;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #F5F5F5;
+    border-radius:9px;
+    box-shadow:0px 0px 9px #FFF;
+    width: 400px;
+}
+#naslov{
+	font-size: 25px;
+}
+#mail{
+	font-size: 15px;
+    padding:1px;
+	background-color: #E7E7E7;
+    margin-bottom:15px;
+}
+#opis{
+	font-size: 12px;
+    margin-bottom:15px;
+}
+#futer{
+    font-size:13px;
+    background-color: rgba(228, 228, 228, 1);
+}
+#counter{
+    padding:1px 5px;
+    float:left;
+    margin-right:3px;
+    font-size:12px;
+    color: #000;
+    background-color: #B4B4B4;
+    font-weight: bold;
+}

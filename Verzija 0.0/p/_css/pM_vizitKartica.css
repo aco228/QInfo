@@ -1,0 +1,89 @@
+#vizit_karta{
+	position: absolute;
+	height: 70%; width: 60%;
+	left:20%; top:15%;
+	background-color: #3b3b3b;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-image: url('../_slike/profile_back/01.png');
+	color:#FFF;
+	z-index: 20;
+	overflow: hidden;
+}
+/*==========================================================*/
+/* VIZT COVER */
+	#vizit_cover{
+		height: 50%; width: 100%;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center;
+		box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5);
+		cursor: url('../_slike/resursi/cur_otvorena_ruka.cur') 4 4, move;
+	}
+	#vizit_cover_shader{
+		width: 100%; height: 100%;
+		opacity: .08;
+		background: transparent url('../_slike/resursi/back_static.gif') repeat;
+	}
+	#profile_reputacija{
+		position: absolute;
+		background-color: rgba(255,255,255,0.8);
+		right: 5px; top:5px;
+		color: #000;
+		padding: 2px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#profil_reputacija_naslov{ text-transform: uppercase; font-size: 10px; }
+	#profil_reputacija_iznos{ font-size: 15px;}
+
+
+/*==========================================================*/
+/* VIZT PROFILE */
+#vizit_profile{
+	position: absolute;
+	width: 25%; height: 40%;
+	left:2.5%; top:30%;
+	background-size:cover;
+	background-position: center;
+	cursor: hand; cursor: pointer;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	border-radius: 3px;
+	z-index: 5;
+}
+#vizit_info{
+	position: absolute;
+	left:30%;
+	height: 50%; width: 70%;
+	text-shadow:0px 0px 15px rgba(0,0,0,0.5);
+}
+#info_naslov{
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#vizit_kontakt{
+	position: absolute; margin-top: 15px;
+	width: 100%;
+}
+.info_left{
+	width: 40%; float: left;
+	font-weight: bold;
+}
+.info_right{
+	width: 60%; float: left;
+}
+
+/*===================================================================*/
+/* socijalne_mreze */
+#socijalne_mreze{
+	position: absolute;
+	right:15%; top:15%;
+	width: 48px; height: 80%;
+	z-index: 18;
+}
+.mreza{
+	display: block;
+	width: 48px; height: 48px;
+	margin-bottom: 5px;
+}
+.mreza img { -webkit-filter: drop-shadow(0px 0px 5px #222); filter: drop-shadow(0px 0px 5px #222); }

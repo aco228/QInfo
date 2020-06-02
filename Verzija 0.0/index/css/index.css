@@ -1,0 +1,24 @@
+/* INDEX ELEMENTI */
+body{ background-color: #373737; }
+#indx_preloader{ position: absolute; }
+#indx_body{ 
+	position: absolute;
+	width: 100%; height: 100%;
+}
+
+/* VIDEO POZADINA */
+#index_backVideo_shader{
+	position: fixed;
+	width: 100%; height: 100%;
+	background-image: url('../slike/back1.png');
+	z-index: 1;
+}
+#index_backVideo_holder{ 
+	position:fixed; 
+	width: 100%; height: 100%; 
+	overflow: hidden;
+	z-index: 0;
+}
+#index_backVideo{
+	min-width: 100%; min-height: 100%;
+}

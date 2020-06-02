@@ -1,0 +1,28 @@
+#pM_informacije_slider{ overflow: auto; height: 80%;}
+#naslov_profila{font-size: 35px; font-weight: bold; margin-top: 10px; text-shadow:0px 0px 10px #FFF; color: #272727;}
+#informacije_stranica{
+	height: 100%; width: 80%;
+	background-color: rgba(255,255,255,0.6);
+	padding-left:10%; padding-right: 10%; padding-top: 20px;
+}
+.informacije_page{ 
+	width:100%; margin-top:15px;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:3px;
+	box-shadow:0px 0px 10px rgba(255,255,255,0.5);
+	margin-bottom:15px;
+}
+	.informacije_page_naslov{ font-size:12px; font-weight:bold; text-transform: uppercase; padding:3px; padding-left:20px;background-color:rgba(255,255,255,0.5); border-radius: 9px; margin-bottom:15px;}
+	.info_holder{ margin-top:15px; }
+
+.informacije_table{ width: auto; border-collapse: collapse; margin:5px; color: #3F3F3F; margin-bottom:15px;}
+.informacije_table tr:nth-child(odd){background-color: rgba(22, 22, 22, 0.03);}
+.informacije_table td:first-child{ font-weight:bold;}
+.informacije_table tr:hover{ background-color:rgba(255, 255, 255, 0.57);}
+.informacije_table tr, informacije_table, td{ padding:1px 20px; }
+
+.socijalne_mreze{position: relative; margin-top:30px;}
+	.informacije_mreza{float:left; padding:2px 5px; }
+	
+.informacije_tekst{ padding:10px; font-size:13px;}
+

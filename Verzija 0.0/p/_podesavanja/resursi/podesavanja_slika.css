@@ -1,0 +1,24 @@
+.slika_msg{padding: 1px 10px;; margin-top: 5px; font-weight: bold; width:100%; background-color: #FFE4D2; text-align:center;}
+.msggreen{ color: green; } .msgred{ color:red; }
+.slika_holder{
+	height: 250px; width: 100%;
+	margin-top:5px;
+}
+.slika_cover{ position: relative; width: 100%; height: 100%; top:0px; left: 0px; cursor: hand; cursor: pointer; }
+	.slika_cover_close{position: absolute; height: 100%; width: 100%; z-index: 5; display: none; }
+		.slika_cover_close_text{position: absolute; color:#FFF; font-size: 15px; text-transform: uppercase; font-weight: bold; z-index: 10; text-shadow:0px 0px 10px #000;}
+		.slika_cover_close_fade{position: absolute; height: 100%; width: 100%; background-color: rgba(99, 95, 150, 0.8); z-index: 9; }
+	.slika_prikaz{position: absolute; height: 100%; width: 100%; background-repeat: no-repeat; background-position: center;}
+	.slika_cover_orginal{background-size: contain; z-index: 4;}
+	.slika_cover_shade{position:absolute; background-repeat: repeat; width: 100%; height: 100%; background-image: url('../../_slike/back.png'); z-index: 3;}
+	.slika_cover_full{background-size: cover; z-index: 2;}
+
+
+.slika_tabs{position: relative; top:0;left:0; width: 100%; height: 100%;}
+	.slika_tab{ width: 100%; position:relative; height: 35px; }
+		.slika_tab_selected{background-color: #E8EBF1}
+		.slika_tab_option{float: left; padding: 10px 10px; cursor: hand; cursor: pointer;}
+	.slika_content{width:100%; height:130px; background-color: #E8EBF1;}
+		.slika_comp{ padding: 40px; }
+			.slika_comp_fileUpload{ background-color: #FFF;padding:4px; width:100%; box-shadow:0px 0px 10px #FFF;}
+		.slika_url{ padding: 40px; }

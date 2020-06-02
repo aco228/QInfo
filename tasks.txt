@@ -1,0 +1,13 @@
+promjena imena ujedno i promjena u profil_friend
+
+poruke
+
+greska u podesavanjima 'prvi karakter sadrzi broj'
+
+vizit kartica usled velikih informacija (ukljuci tabelu)
+
+brisanje popravi u kontaktima
+
+dodaj reputaciju u profil
+
+sacuvaj dugme u podesavanje->socijalne mreze ne radi

@@ -1,0 +1,43 @@
+/*====================================================================
+	FONTOVI
+
+	@font-face{
+		font-family:Oswald;
+		src:url(../_ekstra/fontovi/Oswald-Regular.ttf) format('truetype');
+	}
+	@font-face{
+		font-family:Oswald_l;
+		src:url(../_ekstra/fontovi/Oswald-Light.ttf) format('truetype');
+	}
+	@font-face{
+		font-family:Oswald_b;
+		src:url(../_ekstra/fontovi/Oswald-Bold.ttf) format('truetype');
+	}
+
+/*====================================================================
+	GENERALNA PODESAVANJA
+*/
+html, body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 100%;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight:100;
+	/*text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	-webkit-font-smoothing: subpixel-antialiased;*/
+}
+#___LOGO{
+	z-index: 1000;
+	width: 91px; height: 43px;
+	position: fixed;
+	top: 0px; left: 0px;
+}
+#___LOGO_img{
+	position: absolute;
+	cursor: hand; cursor: pointer;
+}
+input:focus, textarea:focus{
+	outline:none;
+}
